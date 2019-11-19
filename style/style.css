@@ -4,3 +4,91 @@ body{
     padding: 0;
     font-size: 16pt;
   }
+
+a{
+
+}
+
+P{
+
+}
+
+.skip a{
+  background: rgba(255, 255, 255, .8);
+  color: black;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+.skip a:focus{
+  top: 0px;
+}
+:focus{
+  outline: 2px solid black;
+}
+
+.nav-links{
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header{
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+  /* .nav-links{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  } */
+
+}
+
+
+
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: auto;
+  }
+
+  .skip a{
+    background: white;
+    color: black;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: none !important;
+    transition: none !important;
+    z-index: 1;
+  }
+
+  .skip a:focus{
+    top:0;
+  }
+}
