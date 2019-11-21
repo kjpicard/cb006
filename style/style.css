@@ -1,5 +1,5 @@
 body{
-    font-family:'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 16pt;
@@ -42,6 +42,17 @@ P{
 
 header{
 
+}
+
+li{
+  list-style: none;
+}
+
+iframe{
+  width: 600px;
+  max-width: 80%;
+  height: 400px;
+  max-height: 80%;
 }
 
 footer{
