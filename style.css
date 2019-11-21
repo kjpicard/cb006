@@ -44,10 +44,15 @@ header{
 
 }
 
+li{
+  list-style: none;
+}
 
 iframe{
-  width: 50vw;
-  height: 50vh;
+  width: 600px;
+  max-width: 80%;
+  height: 400px;
+  max-height: 80%;
 }
 
 footer{
