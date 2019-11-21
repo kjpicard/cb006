@@ -40,6 +40,13 @@ P{
   text-align: center;
 }
 
+iframe{
+  height: 600px;
+  max-height: 80%;
+  width: 400px;
+  max-width: 80%;
+}
+
 header{
 
 }
