@@ -48,6 +48,10 @@ li{
   list-style: none;
 }
 
+img{
+  max-width: 60%;
+}
+
 iframe{
   width: 600px;
   max-width: 80%;
