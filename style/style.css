@@ -15,11 +15,6 @@ a:hover{
 }
 nav{
   background-color: rgb(48, 55, 103);
-  display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
-  justify-content: center;
-  text-align: center;
 }
 nav a{
   display: block;
@@ -44,6 +39,11 @@ h1{
 }
 P{
 padding:5px;
+}
+
+.active-page{
+  background-color: white;
+  color: black;
 }
 
 .skip a{
@@ -149,20 +149,68 @@ footer{
 }
 
 @media all and (min-width:720px){
-
+.profile-img{
+}
 
 }
 
 @media all and (min-width:1200px){
 
-  /* .nav-links{
-    display:flex;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-  } */
+nav{
+  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.nav-links{
+  display:flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+nav ul{
+    /* display:flex; */
+    font-size: 25px;
+  }
 
+.container{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 200px auto auto 200px;
+  align-items: center;
+  grid-gap: 10px;
+  padding-bottom: 200px;
+  }
+
+header{
+  grid-column: 1/-1;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  padding: 10px;
+}
+.profile-img{
+  grid-column: 2;
+}
+
+iframe{
+  grid-column: 2/ span 2;
+  grid-row: 3;
+  width: 800px;
+  max-width: 100%;
+  height: 1000px;
+  max-height: 100%;
+  margin-top: 0px;
+}
+
+form{
+  grid-column: 2/ span 2;
+  grid-row: 2;
+  font-size: 16px;
 }
 
 
