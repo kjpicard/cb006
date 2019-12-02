@@ -212,6 +212,9 @@ form{
   grid-row: 2;
   font-size: 16px;
 }
+.text{
+  grid-column: 2/ span 2;
+}
 
 
 
